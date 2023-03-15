@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    color: rgb(120, 106, 106);
+    text-align: center;
+}
+
+.mailfont {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: calc(26px + (44 - 26) * ((100vw - 400px) / 1240));
+    text-align: center;
+}
+
+.subscribebtn {
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    width: 20%;
+    margin-left: 10px;
+    line-height: 2.5rem;
+}
+
+.field {
+    line-height: 2.5rem;
+    width: 75%;
+    padding-left: 10px;
+}
+
+.box {
+    width: 60%;
+    margin: auto;
+
+}
+
+/* MOBILE SCREEN */
+
+@media screen and (max-width:416px) {
+    .subscribebtn {
+        width: 85%;
+        margin-left: 3px;
+        line-height: 1.5rem;
+        margin: auto;
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .field {
+        line-height: 1.5rem;
+        width: 85%;
+        padding-left: 10px;
+        margin: auto;
+        height: 40px;
+    }
+
+    .box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .emailform {
+        display: grid;
+    }
+
+}
+
+/*  MINI SCREEN */
+@media screen and (max-width: 700px) and (min-width:417px) {
+    .subscribebtn {
+        width: 20%;
+        margin-left: 10px;
+        line-height: 2.5rem;
+    }
+
+    .field {
+        line-height: 2.5rem;
+        width: 75%;
+        padding-left: 10px;
+    }
+
+    .box {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+/* PC SCREEN */
+@media screen and (max-width: 990px) and (min-width: 701px) {
+    .subscribebtn {
+        width: 20%;
+        margin-left: 10px;
+        line-height: 2.5rem;
+    }
+
+    .field {
+        line-height: 2.5rem;
+        width: 75%;
+        padding-left: 10px;
+    }
+
+    .box {
+        width: 80%;
+        margin: auto;
+    }
+}

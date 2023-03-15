@@ -1,0 +1,152 @@
+.preview {
+    width: fit-content;
+    height: 500px;
+    object-fit: inherit;
+    border-radius: 5px;
+}
+
+.previewimg {
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 150px;
+    border-color: white;
+    object-fit: cover;
+}
+
+.previewimgborder {
+    border: 3px solid rgb(171, 122, 95);
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 150px;
+    border-color: rgb(171, 122, 95);
+    object-fit: cover;
+
+}
+
+.qtybtn {
+    border: transparent;
+    background-color: transparent;
+}
+
+.stockbtn {
+    color: white;
+    background-color: rgb(68, 187, 158);
+    border-color: transparent;
+    padding: 0px 3px;
+    font-size: smaller;
+}
+
+.stockreview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemheading {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: start;
+}
+
+.productqty {
+    text-align: start;
+    border: 1px solid rgb(225, 226, 228);
+    width: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.cartbtn {
+    width: 100%;
+    color: white;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.accordianbody {
+    text-align: start;
+    color: rgb(150, 151, 154);
+}
+
+@media screen and (max-width: 376px) {
+    .previewimgborder {
+        height: 80px !important;
+    }
+
+    .previewimg {
+        height: 80px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .stockbtn {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 426px) and (min-width: 376px) {
+    .previewimgborder {
+        height: 80px !important;
+    }
+
+    .previewimg {
+        height: 80px !important;
+    }
+
+}
+
+@media only screen and (max-width: 769px) and (min-width:426px) {
+
+    .previewimgborder {
+        height: 100px !important;
+    }
+
+    .previewimg {
+        height: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 1025px) and (min-width:769px) {
+
+    .previewimgborder {
+        height: 100px !important;
+    }
+
+    .previewimg {
+        height: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 1441px) and (min-width:1025px) {
+
+    .previewimgborder {
+        height: 150px !important;
+    }
+
+    .previewimg {
+        height: 150px !important;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .previewimgborder {
+        height: 150px !important;
+    }
+
+    .previewimg {
+        height: 150px !important;
+    }
+}

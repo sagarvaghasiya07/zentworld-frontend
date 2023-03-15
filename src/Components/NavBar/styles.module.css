@@ -1,0 +1,97 @@
+.navsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.navbtn {
+    border-color: transparent;
+    background-color: transparent;
+    color: black;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+.navsearch {
+    gap: 40px;
+    display: flex;
+
+}
+
+.cartcount {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 0px 8px;
+}
+
+.navcart {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    border-color: transparent;
+    background-color: transparent;
+    color: black;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+/*==================== DROP DOWN HOVER CONTENT ===============*/
+.dropdown {
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+
+.dropbtn {
+    color: black;
+    padding: 16px;
+    background-color: white;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    z-index: 1;
+    text-align: start;
+    font-size: medium;
+}
+
+.dropdowncontent a {
+    color: #797b7e;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdowncontent a:hover {
+    color: black;
+}
+
+.dropdown:hover .dropdowncontent {
+    display: block;
+}
+
+.dropdown:after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.30s ease-out;
+}
+
+.dropdown:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

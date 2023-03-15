@@ -1,0 +1,40 @@
+.footermain {
+    background-color: white;
+    color: black;
+}
+
+.column {
+    place-content: space-evenly;
+    display: grid;
+}
+
+.lsfooter {
+    background-color: white;
+    color: black;
+    margin-bottom: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+li,
+ul {
+    list-style: none;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 510px) {
+
+    li,
+    ul {
+        list-style: none;
+        font-size: 12px;
+    }
+}
+
+.zentworld {
+    height: 100px;
+    width: auto;
+}

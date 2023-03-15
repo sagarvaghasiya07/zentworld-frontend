@@ -1,0 +1,65 @@
+.mainsection {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bgimagetext {
+    color: white;
+    font-family: fangsong;
+    font-size: 8vw;
+}
+
+.bgimage {
+    color: white;
+}
+
+.shopbtn {
+    color: white;
+    background-color: transparent;
+    padding: 20px 35px;
+    font-weight: 500;
+    font-size: small;
+    border: 2px solid white;
+}
+
+.shopbtn:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width:700px) {
+    .center {
+        top: 25%;
+        font-size: 18px;
+    }
+
+    .bgimagetext {
+        font-size: 50px;
+    }
+
+    .shopbtn {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width:407px) {
+    .center {
+        top: 15%;
+        font-size: 18px;
+    }
+
+    .bgimagetext {
+        font-size: 30px;
+    }
+
+    .shopbtn {
+        padding: 10px 10px;
+    }
+}

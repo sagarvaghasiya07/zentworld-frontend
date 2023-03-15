@@ -14,5 +14,8 @@ RUN npm install
 # Copying all the files in our project
 COPY . .
 
+# Uses port which is used by the actual application
+EXPOSE 3000
+
 # Starting our application
 CMD npm start

@@ -92,8 +92,8 @@ const ProductOverView = () => {
             {[...Array(20)].map((abc) => {
               return (
                 <Col
-                  xs={6}
-                  sm={4}
+                  // xs={6}
+                  sm={6}
                   md={3}
                   lg={3}
                   className="m-0 p-0 justify-content-center d-flex"
